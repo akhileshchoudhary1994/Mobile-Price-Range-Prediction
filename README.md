@@ -29,3 +29,8 @@ Predicting Phone Price Range Based on Their Specification
 
 What Machine Learning classification models that has the best evaluation matrix to predict phone price based on their specification
 This prediction could be useful for a mobile phone company to price their phone price range based a specification
+
+#Machine Learning Summary
+#Conclusion
+
+We can see that from all the evaluation matrix for this phone classfication, we see that, KNN after hyperparameter tuning without scalling has the best accuracy when it comes to predicting phone price range based on certain features.
