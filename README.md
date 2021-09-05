@@ -16,6 +16,7 @@ This notebook, is an Exploratory data analysis on smartphone price range and how
 In this notebook we are going to predict on a smartphone price range based on the hardware feature using a machine learning classification method
 
 Problem Statement
+
 As the competition of smartphones get more and more competitive each day, finding the best pricing range for a smartphone would be a key strategy to have a profitable smartphone company.
 
 However as there are more and more smartphone it's getting harder and harder for a company to justified a price range of a phone.
