@@ -1,6 +1,7 @@
 # Mobile-Price-Range-Prediction
-To determine factors impacting our dependent variable mobile price range
-Background Information
+
+# INTRODUCTION
+
 Personal cellphone has been around since the 1970's, however the first ever smartphone was invented in 1992 by IBM it call simon personal communicator.
 
 Then come along the 3G network where it allow a smartphone to be connected to the internet.
@@ -15,7 +16,7 @@ This notebook, is an Exploratory data analysis on smartphone price range and how
 
 In this notebook we are going to predict on a smartphone price range based on the hardware feature using a machine learning classification method
 
-#Problem Statement
+# Problem Statement
 
 As the competition of smartphones get more and more competitive each day, finding the best pricing range for a smartphone would be a key strategy to have a profitable smartphone company.
 
