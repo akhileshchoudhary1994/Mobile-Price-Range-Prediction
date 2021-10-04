@@ -29,7 +29,7 @@ The heatmap represents the linear correlation between different variables that a
 The model was developed by using the linear regression, random forest, decision trees, XG boost and KNN algorithm. The training of these models was done on 70% of the data and testing was done on rest 30% of the data. The following tables shows the performance parameters of different algorithms on train and test dataset respectively. The performance parameters of the different algorithms for both training and testing are provided in table 2 and table 3 respectively.
 Table 1: Performance parameters of different algorithms for the training dataset
 Algorithm	Class label	Performance parameters
- 	 	Accuracy	Precision	Recall	F1 score
+ 	 	|Accuracy|	|Precision|	|Recall|	|F1 score|
 Linear regression	0	0.9175	1.0000	0.8842	0.9385
  	1	 	0.8558	0.9674	0.9082
  	2	 	0.8407	0.9596	0.8962
