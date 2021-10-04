@@ -30,7 +30,7 @@ The model was developed by using the linear regression, random forest, decision 
 Table 1: Performance parameters of different algorithms for the training dataset
 Algorithm	Class label	Performance parameters
 # Linear regression
- 	 |Precision|Recall|F1score|
+ 	  |Precision|Recall|F1score|
     	
  	1	|0.8558|0.9674|0.9082|
  	2	|0.8407|0.9596|0.8962|
