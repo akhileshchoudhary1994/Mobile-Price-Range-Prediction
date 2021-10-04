@@ -30,27 +30,27 @@ The model was developed by using the linear regression, random forest, decision 
 Table 1: Performance parameters of different algorithms for the training dataset
 Algorithm	Class label	Performance parameters
 # Linear regression
- 	 	|Precision|Recall|F1 score|
-    :------------------------------:	
+ 	 |Precision|Recall|F1score|
+    	
  	1	|0.8558|0.9674|0.9082|
  	2	|0.8407|0.9596|0.8962|
  	3	|1.0000|0.8684|0.9296|
-# Random forest	0	0.9485	0.9630	0.9734	0.9671
- 	1	 	0.9071	0.9095	0.9083
- 	2	 	0.9385	0.9197	0.9290
- 	3	 	0.9882	0.9970	0.9926
-Decision trees	0	0.8921	0.9266	0.9970	0.9235
- 	1	 	0.7968	0.7555	0.7756
- 	2	 	0.7517	0.7019	0.7260
- 	3	 	0.8287	0.9202	0.8720
-XG boost	0	0.9200	0.9662	0.9470	0.9565
- 	1	 	0.8726	0.9383	0.9043
- 	2	 	0.9065	0.8513	0.8780
- 	3	 	0.9359	0.9419	0.9389
-KNN	0	0.9433	0.9677	0.9934	0.9804
- 	1	 	0.9403	0.9333	0.9368
- 	2	 	0.9127	0.9007	0.9067
- 	3	 	0.9506	0.9477	0.9477
+# Random forest	
+ 	1	|0.9071|0.9095|0.9083|
+ 	2	|0.9385|0.9197|0.9290|
+ 	3	|0.9882|0.9970|0.9926|
+# Decision trees	
+ 	1	|0.7968|0.7555|0.7756|
+ 	2	|0.7517|0.7019|0.7260|
+ 	3	|0.8287|0.9202|0.8720|
+# XG boost	
+ 	1	|0.8726|0.9383|0.9043|
+ 	2	|0.9065|0.8513|0.8780|
+ 	3	|0.9359|0.9419|0.9389|
+# KNN	
+ 	1	|0.9403|0.9333|0.9368|
+ 	2	|0.9127|0.9007|0.9067|
+ 	3	|0.9506|0.9477|0.9477|
 
 Table 2: Performance parameters of different algorithms for the test dataset
 Algorithm	Class label	Performance parameters
