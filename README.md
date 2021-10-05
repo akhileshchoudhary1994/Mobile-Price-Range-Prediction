@@ -27,7 +27,7 @@ The heatmap represents the linear correlation between different variables that a
 
 # Results and Discussion:
 The model was developed by using the linear regression, random forest, decision trees, XG boost and KNN algorithm. The training of these models was done on 70% of the data and testing was done on rest 30% of the data. The following tables shows the performance parameters of different algorithms on train and test dataset respectively. The performance parameters of the different algorithms for both training and testing are provided in table 2 and table 3 respectively.
-Table 1: Performance parameters of different algorithms for the training dataset
+# Table 1: Performance parameters of different algorithms for the training dataset
 Algorithm	Class label	Performance parameters
 # Linear regression
  	   
@@ -37,49 +37,50 @@ Algorithm	Class label	Performance parameters
  	2	|0.8407|0.9596|0.8962|
  	3	|1.0000|0.8684|0.9296|
 # Random forest	
- ` |Precision|Recall|F1score|
+ ` 
  	1	|0.9071|0.9095|0.9083|
  	2	|0.9385|0.9197|0.9290|
  	3	|0.9882|0.9970|0.9926|
 # Decision trees
-  |Precision|Recall|F1score|
+  
  	1	|0.7968|0.7555|0.7756|
  	2	|0.7517|0.7019|0.7260|
  	3	|0.8287|0.9202|0.8720|
 # XG boost
-  |Precision|Recall|F1score|
+  
  	1	|0.8726|0.9383|0.9043|
  	2	|0.9065|0.8513|0.8780|
  	3	|0.9359|0.9419|0.9389|
 # KNN	
- |Precision|Recall|F1score|
+ 
  	1	|0.9403|0.9333|0.9368|
  	2	|0.9127|0.9007|0.9067|
  	3	|0.9506|0.9477|0.9477|
 
-Table 2: Performance parameters of different algorithms for the test dataset
+# Table 2: Performance parameters of different algorithms for the test dataset
 Algorithm	Class label	Performance parameters
- 	 		Precision	Recall	F1 score
-Linear regression	
- 	1	 	0.8558	0.9674	0.9082
- 	2	 	0.8407	0.9596	0.8962
- 	3	 	1.0000	0.8684	0.9296
-Random forest	
- 	1	 	0.8800	0.9041	0.8919
- 	2	 	0.8523	0.8581	0.8552
- 	3	 	0.9271	0.9032	0.9150
-Decision trees	
- 	1	 	0.8793	0.8383	0.8583
- 	2	 	0.8588	0.8366	0.8476
- 	3	 	0.8975	0.9614	0.9283
-XG boost	0	1.0000	1.0000	1.0000	1.0000
- 	1	 	1.0000	1.0000	1.0000
- 	2	 	1.0000	1.0000	1.0000
- 	3	 	1.0000	1.0000	1.0000
-KNN	0	0.9450	0.9687	0.9770	0.9728
- 	1	 	0.9274	0.9452	0.9362
- 	2	 	0.9193	0.9140	0.9166
- 	3	 	0.9665	0.9436	0.9549
+# Linear regression
+ 	 		|Precision|Recall|F1 score|
+	
+ 	1	 |0.8558|0.9674|0.9082|
+ 	2	 |0.8407|0.9596|0.8962|
+ 	3	 |1.0000|0.8684|0.9296|
+# Random forest	
+ 	1	 |0.8800|0.9041|0.8919|
+ 	2	 |0.8523|0.8581|0.8552|
+ 	3	 |0.9271|0.9032|0.9150|
+# Decision trees	
+ 	1	 |0.8793|0.8383|0.8583|
+ 	2	 |0.8588|0.8366|0.8476|
+ 	3	 |0.8975|0.9614|0.9283|
+# XG boost	
+ 	1	 |1.0000|1.0000|1.0000|
+ 	2	 |1.0000|1.0000|1.0000|
+ 	3	 |1.0000|1.0000|1.0000|
+# KNN	
+ 	1	 |0.9274|0.9452|0.9362|
+ 	2	 |0.9193|0.9140|0.9166|
+ 	3	 |0.9665|0.9436|0.9549|
 
 The KNN model seems to perform the best while predicting the output as the performance parameters for both the train and test set are consistent for all the classes of the price range. The XG boost seems to overfit the data.  
 
