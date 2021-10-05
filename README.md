@@ -60,7 +60,7 @@ Algorithm	Class label	Performance parameters
 # Table 2: Performance parameters of different algorithms for the test dataset
 Algorithm	Class label	Performance parameters
 # Linear regression
- 	 		|Precision|Recall|F1 score|
+ 	 |Precision|Recall|F1 score|
 	
  	1	 |0.8558|0.9674|0.9082|
  	2	 |0.8407|0.9596|0.8962|
