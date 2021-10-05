@@ -12,15 +12,15 @@ if a company set a smartphone that's too expensive with low computational power 
 
 # Model deployment:
 The machine learning modeling process comprises of various operations performed from collection of raw data to the implementation of the algorithms to learn. The various sub-divisions are listed below: 
-	-Collection of raw data
-	-Feature Extraction 
-	-Feature Selection 
-	-Exploratory Data analysis
-	-Data Visualization
-	-Feature extraction 
-	-Implementation of ML algorithms 
-	-Tuning of hyperparameters 
-	-Comparing errors different algorithms on test dataset
+	*Collection of raw data
+	*Feature Extraction 
+	*Feature Selection 
+	*Exploratory Data analysis
+	*Data Visualization
+	*Feature extraction 
+	*Implementation of ML algorithms 
+	*Tuning of hyperparameters 
+	*Comparing errors different algorithms on test dataset
 
 The data was provided by AlmaBetter which contained our target variable Price_range and the independent variables such as ram, Int_memory, Pc, Mobile_wt etc. The feature selection and extraction were already done for the dataset. The data was also perfect in terms of missing or null values. So, there was no need of cleaning of the dataset in regard to missing values and outliers. 
 The heatmap represents the linear correlation between different variables that are present in our dataset. The correlation plot shows that there is a positive correlation present between fc, pc and four_g, three_g. Furthermore, it was seen that Battery power, clock_speed, dual_sim, m_dep, mobile_wt, px_height, px_width, ram, sc_h and talk_time got linear relationship with our dependent variable price range.  
